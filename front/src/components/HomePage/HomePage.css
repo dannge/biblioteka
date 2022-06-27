@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin-top: 5%;
+	text-align: center;
+}
+
+h3 {
+	font-weight: 700;
+	margin-bottom: 0.5em;
+	font-family: Dancing Script;
+	color: #b78846;
+}
+
+.box {
+	background-color: rgba(#000, 0.5);
+	width: 100%;
+
+	max-width: 20%;
+	padding: 5px;
+	/* border: 2px solid white; */
+	margin: 2%;
+}
+
+.box-inner {
+	position: relative;
+	/* border: 2px solid #b78846; */
+	padding: 40px;
+}

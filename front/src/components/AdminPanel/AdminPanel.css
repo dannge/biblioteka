@@ -1,0 +1,28 @@
+.adminPage {
+	background-color: black;
+	width: 90%;
+	margin: auto;
+}
+.adminPage h1 {
+	color: #b78846;
+}
+.adminNav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid #b78846;
+	padding: 1%;
+}
+.adminNav button {
+	padding: 0.5%;
+	border-radius: 5px;
+	border: none;
+	border-bottom: 1px solid #b78846;
+	background-color: #282b2d;
+	color: white;
+	margin: 0.5%;
+}
+.adminNav button:hover {
+	background-color: #169873;
+}

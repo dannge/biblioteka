@@ -1,0 +1,65 @@
+.EditItem {
+	margin-top: 50px;
+	margin-bottom: 3%;
+}
+
+.EditItem-title {
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: Dancing Script;
+	color: #b78846;
+
+	text-align: center;
+}
+/* .BreakfastEditForm {
+	margin-top: 2%;
+} */
+
+.EditItem-input {
+	border-radius: 2px;
+	border: none;
+	background-color: #222 !important;
+	width: 100%;
+	color: white !important;
+	padding: 0;
+	font-size: 16px;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #d1d1d4;
+	transition: 0.2s;
+}
+
+.EditItem-input::placeholder {
+	color: white;
+	font-family: sans-serif;
+	top: 20px;
+}
+
+#button-itemUpdate {
+	font: inherit;
+	cursor: pointer;
+	width: 7rem;
+	height: 1.6rem;
+	border: 1px solid #169873;
+	background-color: #169873;
+	color: #dee5e5;
+	margin-top: 0.5rem;
+	margin-right: 3rem;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+#button-itemCancel {
+	font: inherit;
+	cursor: pointer;
+	width: 7rem;
+	height: 1.6rem;
+	border: 1px solid #b78846;
+	background-color: #b78846;
+	color: #dee5e5;
+	margin-top: 0.5rem;
+	margin-right: 3rem;
+	border-radius: 5px;
+	font-weight: bold;
+}

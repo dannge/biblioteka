@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DancingScript&family=Dancing+Script&display=swap');
+
+.Navbar {
+	width: 100%;
+}
+.black {
+	background-color: black;
+}
+.logo {
+	width: 70px;
+	height: 70px;
+
+	margin-left: 15%;
+}
+
+.menu {
+	margin: auto;
+	font-family: Dancing Script;
+	font-size: 34px;
+	color: #b78846;
+}
+
+.logoutUserName {
+	color: #fff;
+}
+.logoutIcon {
+	color: #b78846;
+	margin-left: 10%;
+}
+.logaut {
+	margin-right: 3%;
+}
+
+a:-webkit-any-link {
+	color: #b78846;
+	cursor: pointer;
+	text-decoration: none;
+}
